@@ -1,0 +1,99 @@
+@font-face { font-family: ArialNarrow; src: url('font/ArialNarrow/arialnarrow.ttf'); } 
+@font-face { font-family: ArialNarrow; font-weight: bold; src: url('font/ArialNarrow/arialnarrow_bold.ttf'); }
+@font-face { font-family: ArialNarrow; font-style: italic; src: url('font/ArialNarrow/arialnarrow_italic.ttf'); }
+@font-face { font-family: ArialNarrow; font-style: italic; font-weight: bold; src: url('font/ArialNarrow/arialnarrow_bold_italic.ttf'); }
+
+
+body {
+  font-family: "ArialNarrow";
+  font-kerning: normal;
+
+  padding: 1em 2em;
+  margin: 50pt auto;
+
+  color: black;
+
+  max-width: 40em;
+
+  font-size: 14pt;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 2em;
+  /* margin-bottom: 1em; */
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+p {
+  /* text-align: justify;
+  hyphens: auto; */
+}
+
+a {
+  color: #ce2121;
+  text-decoration: none;
+
+  /* padding: 0pt 2pt; /* trick to make highlighting not be too tight around the word */
+  /* margin: 0pt -2pt; */ 
+}
+
+a:hover {
+  /* background-color: #ce2121;
+  color: white; */
+  text-decoration: underline;
+}  
+
+hr {
+  /* border: none;
+  border-top: 1px solid #777;
+  color: #777;
+  overflow: visible;
+  text-align: center;
+  height: 15px;
+  margin-top: 2.2em; 
+  width: 70%;*/ 
+}
+/* 
+hr::after {
+  background: #fff;
+  content: '𐂐';
+  padding: 0 4px;
+  position: relative;
+  top: -0.8em;
+} */
+
+input[type='checkbox'] { display: none; } 
+
+
+.lbl-toggle { 
+  cursor: pointer; 
+  color: #ce2121;
+  text-decoration: none;  
+} 
+
+.lbl-toggle:hover { 
+  text-decoration: underline;
+} 
+
+.collapsible-content { 
+  max-height: 0px; 
+  overflow: hidden; 
+} 
+
+.toggle:checked + .lbl-toggle + .collapsible-content { 
+  max-height: 100%; 
+} 
+
+.collapsible-content .content-inner { 
+  margin: .5rem 1rem; 
+  /* padding-bottom: 2rem; */
+} 
+
+blockquote {
+  margin: 10px 30px;
+}
