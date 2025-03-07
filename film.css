@@ -1,3 +1,8 @@
+@font-face { font-family: Fraunces; src: url('font/Fraunces/Fraunces72pt-Thin.ttf'); } 
+@font-face { font-family: Fraunces; font-weight: bold; src: url('font/Fraunces/Fraunces72ptSoft-Bold.ttf'); }
+@font-face { font-family: Fraunces; font-style: italic; src: url('font/Fraunces/Fraunces72pt-ThinItalic.ttf'); }
+@font-face { font-family: Fraunces; font-style: italic; font-weight: bold; src: url('font/Fraunces/Fraunces72ptSoft-BoldItalic.ttf'); }
+
    a,
    a:visited
    {
@@ -51,7 +56,7 @@
        margin:0 auto;
        padding:230px 0 350px 0;
        font-size:0.8em;
-       font-family:arial, sans serif;
+       font-family:Fraunces;
        background-color:#313131;
        color:#b9b9b9;
        text-align:left;
