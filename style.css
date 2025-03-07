@@ -1,7 +1,7 @@
-@font-face { font-family: ArialNarrow; src: url('font/ArialNarrow/arialnarrow.ttf'); } 
-@font-face { font-family: ArialNarrow; font-weight: bold; src: url('font/ArialNarrow/arialnarrow_bold.ttf'); }
-@font-face { font-family: ArialNarrow; font-style: italic; src: url('font/ArialNarrow/arialnarrow_italic.ttf'); }
-@font-face { font-family: ArialNarrow; font-style: italic; font-weight: bold; src: url('font/ArialNarrow/arialnarrow_bold_italic.ttf'); }
+@font-face { font-family: Fraunces; src: url('font/Fraunces/fraunces.ttf'); } 
+@font-face { font-family: Fraunces; font-weight: bold; src: url('font/Fraunces/fraunces-bold.ttf'); }
+@font-face { font-family: Fraunces; font-style: italic; src: url('font/Fraunces/fraunces-italic.ttf'); }
+@font-face { font-family: Fraunces; font-style: italic; font-weight: bold; src: url('font/Fraunces/fraunces-bolditalic.ttf'); }
 
 
 body {
