@@ -1,48 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Films I've Watched</title>
-    <link rel="stylesheet" href="film.css">
+	<meta charset="utf-8">
+	<title>My Watched Films</title>
+
+	<link rel="stylesheet" media="screen" href="film.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Flying">
+	<meta name="description" content="A list of films I have watched.">
+	<meta name="robots" content="all">
 </head>
-<body>
-    <header>
-        <h1>My Film Collection</h1>
-    </header>
-    
-    <main>
-        <section class="films-section">
-            <h2>Films I've Watched</h2>
-            <p>This is a section with films I've watched over the years.</p>
-            
-            <div class="film-grid">
-                <div class="film-card">
-                    <h3>The Godfather</h3>
-                    <p class="director">Director: Francis Ford Coppola</p>
-                    <p class="year">Year: 1972</p>
-                    <p class="rating">Rating: ★★★★★</p>
-                </div>
-                
-                <div class="film-card">
-                    <h3>Pulp Fiction</h3>
-                    <p class="director">Director: Quentin Tarantino</p>
-                    <p class="year">Year: 1994</p>
-                    <p class="rating">Rating: ★★★★☆</p>
-                </div>
-                
-                <div class="film-card">
-                    <h3>Parasite</h3>
-                    <p class="director">Director: Bong Joon-ho</p>
-                    <p class="year">Year: 2019</p>
-                    <p class="rating">Rating: ★★★★★</p>
-                </div>
-            </div>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2023 My Film Collection</p>
-    </footer>
+<body id="films-list">
+<div class="page-wrapper">
+
+	<section class="intro" id="film-intro">
+		<header role="banner">
+			<h1>My Film Collection</h1>
+			<h2>The Beauty of Cinema</h2>
+		</header>
+
+		<div class="summary" id="film-summary" role="article">
+			<p>A collection of films I have watched and enjoyed over the years. Each film tells a unique story, immersing the audience in different worlds and perspectives.</p>
+		</div>
+	</section>
+
+	<div class="main supporting" id="film-supporting" role="main">
+		<div class="explanation" id="film-explanation" role="article">
+			<h3>Why These Films?</h3>
+			<p>These films stand out for their storytelling, cinematography, or impact on me. Some are classics, while others are hidden gems.</p>
+		</div>
+
+		<div class="participation" id="film-participation" role="article">
+			<h3>My Experience</h3>
+			<p>Each film on this list has left an impression on me, whether through an emotional journey, a thrilling plot, or breathtaking visuals.</p>
+		</div>
+
+		<div class="benefits" id="film-benefits" role="article">
+			<h3>Genres I Love</h3>
+			<p>Science Fiction, Drama, Mystery, Thriller, and Comedy are among my favorite genres.</p>
+		</div>
+
+		<div class="requirements" id="film-requirements" role="article">
+			<h3>Film Criteria</h3>
+			<p>Great storytelling, compelling characters, strong direction, and impactful cinematography are what I look for in a film.</p>
+		</div>
+
+		<footer>
+			<p>Curated by Flying</p>
+		</footer>
+	</div>
+
+	<aside class="sidebar" role="complementary">
+		<div class="wrapper">
+			<div class="design-selection" id="film-selection">
+				<h3 class="select">Films I've Watched:</h3>
+				<nav role="navigation">
+					<ul>
+						<li><a href="#" class="film-name">Interstellar</a> by <span class="director-name">Christopher Nolan</span></li>
+						<li><a href="#" class="film-name">Inception</a> by <span class="director-name">Christopher Nolan</span></li>
+						<li><a href="#" class="film-name">The Grand Budapest Hotel</a> by <span class="director-name">Wes Anderson</span></li>
+						<li><a href="#" class="film-name">Blade Runner 2049</a> by <span class="director-name">Denis Villeneuve</span></li>
+						<li><a href="#" class="film-name">Parasite</a> by <span class="director-name">Bong Joon-ho</span></li>
+						<li><a href="#" class="film-name">Whiplash</a> by <span class="director-name">Damien Chazelle</span></li>
+						<li><a href="#" class="film-name">The Matrix</a> by <span class="director-name">Lana & Lilly Wachowski</span></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</aside>
+</div>
 </body>
 </html>
